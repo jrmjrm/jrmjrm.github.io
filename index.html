@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Writing Data to the Page</title>
+    </head>
+    <body>
+        <script>
+            var ordinal, color;
+            var outputcolors = [];
+            for (var rank = 3; rank >= 1; rank--) {
+                switch (rank) {
+                    case 1:
+                        ordinal = "first";
+                        break;
+                    case 2:
+                        ordinal = "second";
+                        break;
+                    case 3:
+                        ordinal = "third";
+                }
+                color = prompt("What is your " + ordinal + "-favorite CSS color?", "");
+                outputcolors.push(color);
+            }
+            for (var i = 3; i > 0 ; i--) {
+                document.write(4-i + ". " + outputcolors[i-1] + "<br>");
+            }
+        </script>
+    </body>
+</html>
