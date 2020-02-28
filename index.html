@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Color Chooser</title>
-        <script>
-            function chooseColor() {
-                var colorOfBackground = prompt("Type the color you'd like:","");
-                document.body.style.backgroundColor = colorOfBackground;
-            }
-        </script>
+        <link rel="stylesheet" href="calc.css">
+        <meta charset=utf-8 />
     </head>
-    <body>
-        <button style="width:100px;height:100px;" onclick="chooseColor()">
-            Change Background Color
-        </button>
-    </body>
+    <main>
+        <div id="result"></div>
+        <div class="row" id="row1">
+            <li class="large"><button id="backspace">backspace</button></li>
+            <li class="large"><button id="CE">CE</button></li>
+            <li class="large"><button id="C">C</button></li>
+        </div>
+        <div class="row" id="row2">
+            <li class="small"><button id="7">7</button></li>
+            <li class="small"><button id="8">8</button></li>
+            <li class="small"><button id="9">9</button></li>
+            <li class="medium"><button id="/">/</button></li>
+            <li class="medium"><button id="sqrt">sqrt</button></li>
+        </div>
+        <div class="row" id="row3">
+            <li class="small"><button id="4">4</button></li>
+            <li class="small"><button id="5">5</button></li>
+            <li class="small"><button id="6">6</button></li>
+            <li class="medium"><button id="*">*</button></li>
+            <li class="medium"><button id="%">%</button></li>
+        </div>
+        <div class="row" id="row4">
+            <li class="small"><button id="1">1</button></li>
+            <li class="small"><button id="2">2</button></li>
+            <li class="small"><button id="3">3</button></li>
+            <li class="medium"><button id="-">-</button></li>
+            <li class="medium"><button id="1/x">1/x</button></li>
+        </div>
+        <div class="row" id="row5">
+            <li class="small"><button id="0">0</button></li>
+            <li class="small"><button id="+/-">+/-</button></li>
+            <li class="small"><button id=".">.</button></li>
+            <li class="medium"><button id="+">+</button></li>
+            <li class="medium"><button id="=">=</button></li>
+        </div>
+        <script src="jquery-3.4.1.js"></script>
+        <script src="calc.js"></script>
+    </main>
 </html>
