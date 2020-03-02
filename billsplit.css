@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(61, 61, 61);
+}
+
+#buttonsRow {
+    display: flex;
+    flex-direction: row;
+}
+
+#newNameButtonContainer {
+    flex: 2 2 0;
+}
+
+#taxButtonContainer,
+#tipButtonContainer {
+    flex: 1 1 0;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    color: white;
+    font-size: 100%;
+}
+
+#contentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.rowCell {
+    flex: 1 1 0;
+    border-style: solid;
+    border-color: rgb(77, 77, 77);
+    border-width: 1px;
+    text-align: right;
+    font-size: 400%;
+    background-color: gray;
+    color: white;
+}
