@@ -1,0 +1,40 @@
+#gridContainer {
+    width: 450px;
+    height: 450px;
+}
+
+
+.row {
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    height: 11.111%;
+}
+
+.cell {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    flex: 1 1 0;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 250%;
+}
+
+.fixedTile {
+    background-color: rgb(75, 75, 75);
+}
+
+.emptyTile {
+    background-color: rgb(200, 200, 200);
+}
