@@ -1,6 +1,9 @@
 #gridContainer {
     width: 450px;
     height: 450px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
 }
 
 
@@ -10,12 +13,24 @@
     border-style: solid;
     display: flex;
     flex-direction: row;
-    height: 11.111%;
+    height: 33.333%;
 }
+
+.box {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33.333%;
+}
+
+
 
 .cell {
     border-color: black;
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     flex: 1 1 0;
     text-align: center;
