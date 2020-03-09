@@ -1,0 +1,64 @@
+html {
+    background-color: rgb(54, 54, 54);
+}
+
+.gridContainer {
+    border-style: solid;
+    border-color: black;
+    border-width: 0px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    border-style: solid;
+    border-color: black;
+    border-width: 0px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    border-width: 1px;
+    height: 50px;
+    width: 50px;
+    font-size: 300%;
+    text-align: center;
+}
+
+.revealed {
+    background-color: rgb(200, 200, 200);
+    color: black;
+}
+
+.hidden {
+    background-color: rgb(150, 150, 150);
+    color: black;
+}
+
+.tcM {
+    color: black;
+    background-color: red;
+}
+
+.tc1 {
+    color: blue;
+}
+
+.tc2 {
+    color: green;
+}
+
+.tc3 {
+    color: red;
+}
+
+.tc4 {
+    color: rgb(0, 0, 100);
+}
+
+.tc5, .tc6, .tc7, .tc8 {
+    color: black;
+}
