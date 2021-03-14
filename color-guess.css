@@ -20,6 +20,7 @@ body {
     justify-content: center;
     height: 85vh;
     width: 90vw;
+    max-width: 500px;
 }
 
 .selection {
