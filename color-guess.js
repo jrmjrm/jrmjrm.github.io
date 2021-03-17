@@ -1,4 +1,4 @@
-//if ur hear i KNOW ur cheating!👀👀👀
+//if ur here i KNOW ur cheating!👀👀👀
 
 const game = {
     saturation: 30,
